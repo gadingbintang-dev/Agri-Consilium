@@ -1,0 +1,58 @@
+{
+  "environmentalWeights": {
+    "sunlight": 0.3,
+    "water": 0.25,
+    "soil": 0.15,
+    "space": 0.2,
+    "budget": 0.1
+  },
+  "projectFormulas": {
+    "kolam ikan": {
+      "defaultDepth": 1.0,
+      "fishPerM2": 50,
+      "waterRequirement": "tinggi",
+      "minSunlight": "sedang",
+      "scalingFactors": {
+        "largeAreaThreshold": 10,
+        "efficiencyBoost": 1.1
+      }
+    },
+    "kebun sayur": {
+      "bedSize": 1.5,
+      "plantDensity": 12,
+      "soilDepth": 0.2,
+      "waterRequirement": "sedang",
+      "minSunlight": "tinggi"
+    },
+    "sistem hidroponik": {
+      "pipeSpacing": 0.5,
+      "holeSpacing": 0.2,
+      "litersPerPipe": 20,
+      "waterRequirement": "sedang",
+      "minSunlight": "tinggi"
+    },
+    "taman vertikal": {
+      "defaultWallHeight": 2.0,
+      "potsPerM2": 16,
+      "waterRequirement": "sedang",
+      "minSunlight": "sedang"
+    },
+    "kebun herbal": {
+      "potsPerM2": 10,
+      "soilDepth": 0.1,
+      "waterRequirement": "rendah",
+      "minSunlight": "sedang"
+    }
+  },
+  "feasibilityWeights": {
+    "areaMatch": 0.3,
+    "sunlightMatch": 0.25,
+    "waterMatch": 0.25,
+    "budgetMatch": 0.2
+  },
+  "validationLimits": {
+    "maxFishPerM2": 100,
+    "maxPlantDensity": 30,
+    "minArea": 0.1
+  }
+}

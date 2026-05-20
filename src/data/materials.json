@@ -1,0 +1,14 @@
+{
+  "tanah_lembang": { "name": "Tanah Lembang", "price": 15000, "unit": "karung" },
+  "pupuk_organik": { "name": "Pupuk Organik", "price": 25000, "unit": "kg" },
+  "benih_sayur": { "name": "Benih Sayur", "price": 5000, "unit": "bungkus" },
+  "pipa_pvc_3": { "name": "Pipa PVC 3 inch", "price": 85000, "unit": "batang" },
+  "pompa_celup": { "name": "Pompa Celup", "price": 150000, "unit": "unit" },
+  "netpot": { "name": "Netpot", "price": 1000, "unit": "pcs" },
+  "nutrisi_ab_mix": { "name": "Nutrisi AB Mix", "price": 35000, "unit": "set" },
+  "terpal_kolam": { "name": "Terpal Kolam (2x3)", "price": 120000, "unit": "lembar" },
+  "benih_ikan_lele": { "name": "Benih Ikan Lele", "price": 500, "unit": "ekor" },
+  "pakan_ikan": { "name": "Pakan Ikan", "price": 12000, "unit": "kg" },
+  "planter_bag": { "name": "Planter Bag 15L", "price": 12000, "unit": "pcs" },
+  "rangka_baja_ringan": { "name": "Rangka Baja Ringan", "price": 75000, "unit": "batang" }
+}

@@ -1,0 +1,42 @@
+{
+  "kolam ikan": {
+    "name": "Kolam Ikan",
+    "description": "Sistem budidaya ikan skala rumah tangga.",
+    "minArea": 2,
+    "recommendedSunlight": "sedang",
+    "waterRequirement": "tinggi",
+    "difficulty": "sedang"
+  },
+  "kebun sayur": {
+    "name": "Kebun Sayur",
+    "description": "Menanam berbagai jenis sayuran di lahan terbuka.",
+    "minArea": 1,
+    "recommendedSunlight": "tinggi",
+    "waterRequirement": "sedang",
+    "difficulty": "mudah"
+  },
+  "sistem hidroponik": {
+    "name": "Sistem Hidroponik",
+    "description": "Menanam tanpa tanah menggunakan nutrisi air.",
+    "minArea": 1,
+    "recommendedSunlight": "tinggi",
+    "waterRequirement": "sedang",
+    "difficulty": "sedang"
+  },
+  "taman vertikal": {
+    "name": "Taman Vertikal",
+    "description": "Solusi menanam di dinding untuk lahan sangat terbatas.",
+    "minArea": 0.5,
+    "recommendedSunlight": "sedang",
+    "waterRequirement": "sedang",
+    "difficulty": "sedang"
+  },
+  "kebun herbal": {
+    "name": "Kebun Herbal",
+    "description": "Menanam tanaman obat dan bumbu dapur.",
+    "minArea": 0.5,
+    "recommendedSunlight": "sedang",
+    "waterRequirement": "rendah",
+    "difficulty": "mudah"
+  }
+}
